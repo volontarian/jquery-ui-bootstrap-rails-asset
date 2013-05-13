@@ -3,14 +3,30 @@
 .sass-cache
 capybara-*.html
 .rspec
-/.bundle
-/vendor/bundle
 /log/*
 /tmp/*
 /db/*.sqlite3
 /public/system/*
-/coverage/
 /spec/tmp/*
 **.orig
 rerun.txt
 pickle-email-*.html
+
+# rcov generated
+coverage
+coverage.data
+
+# rdoc generated
+rdoc
+
+# yard generated
+doc
+.yardoc
+
+# bundler
+/vendor/bundle
+.bundle
+Gemfile.lock
+
+# jeweler generated
+pkg

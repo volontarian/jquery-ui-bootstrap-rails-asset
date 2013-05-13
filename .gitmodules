@@ -1,0 +1,3 @@
+[submodule "jquery-ui-bootstrap"]
+	path = jquery-ui-bootstrap
+	url = git://github.com/addyosmani/jquery-ui-bootstrap.git
