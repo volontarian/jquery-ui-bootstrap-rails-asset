@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   
   s.add_development_dependency 'json', '~> 1.7'
   
-  s.files        = `git ls-files`.split('\n').reject { |f| f =~ /^dummy|^jquery-ui-bootstrap/ }
+  s.files = Dir['{app,lib}/**/*'] + ['Gemfile', 'CHANGELOG.md', 'MIT-LICENSE', 'Rakefile', 'README.md']
   s.executables  = `git ls-files -- bin/*`.split('\n').map { |f| File.basename(f) }
   s.require_path = 'lib'
 end
