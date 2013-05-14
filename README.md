@@ -1,5 +1,9 @@
 # jquery-ui-bootstrap-rails-asset
 
+Soon I will send a pull request to https://github.com/jaimie-van-santen/jquery-ui-bootstrap-rails and maybe can quit the work on this gem.
+
+The implementation of this gem is heavily inspired from https://github.com/joliss/jquery-ui-rails
+
 [![Build Status](https://secure.travis-ci.org/applicat/jquery-ui-bootstrap-rails-asset.png?branch=master)](http://travis-ci.org/applicat/jquery-ui-bootstrap-rails-asset) [![Dependency Status](https://gemnasium.com/applicat/jquery-ui-bootstrap-rails-asset.png)](https://gemnasium.com/applicat/jquery-ui-bootstrap-rails-asset)
 
 This gem packages the jQuery UI Bootstrap 1.10.2 assets (JavaScripts, stylesheets, and
