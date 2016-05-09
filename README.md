@@ -31,7 +31,7 @@ To require all jQuery UI modules, add the following to your application.js:
 ```javascript
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
+//= require bootstrap
 //= require jquery-ui-bootstrap
 ```
 
@@ -39,8 +39,8 @@ Also add the jQuery UI CSS to your application.css:
 
 ```css
 /*
- *= require twitter/bootstrap
- *= require twitter/bootstrap/responsive
+ *= require bootstrap
+ *= require bootstrap/responsive
  *= require jquery-ui-bootstrap
  */
 ```

@@ -1,3 +1,3 @@
-require 'bootstrap-sass-rails'
+require 'bootstrap-sass'
 
 require 'jquery/ui/bootstrap/rails/asset'
