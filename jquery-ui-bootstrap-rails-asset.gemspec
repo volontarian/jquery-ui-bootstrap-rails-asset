@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = '>= 1.3.6'
 
   s.add_dependency 'railties', '>= 3.1.0'
-  s.add_dependency 'bootstrap-sass-rails'
-  
+  s.add_dependency 'bootstrap-sass'
+
   s.add_development_dependency 'json', '~> 1.7'
-  
+
   s.files = Dir['{app,lib}/**/*'] + ['Gemfile', 'CHANGELOG.md', 'MIT-LICENSE', 'Rakefile', 'README.md']
   s.executables  = `git ls-files -- bin/*`.split('\n').map { |f| File.basename(f) }
   s.require_path = 'lib'

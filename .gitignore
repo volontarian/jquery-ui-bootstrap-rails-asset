@@ -30,3 +30,4 @@ Gemfile.lock
 
 # jeweler generated
 pkg
+.idea/
